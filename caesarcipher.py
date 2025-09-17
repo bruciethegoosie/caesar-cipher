@@ -29,8 +29,8 @@ def decrypt(ciphertext: str, key: int) -> str:
     return "".join(dec_message)
 
 
-print(encrypt('xyz', 1))
-print(decrypt('bcd', 1))
+print("Encrypted Message:", encrypt('Pizza is good', 1))
+print("Decrypted Message:", decrypt('Qjaab jt hppe', 1))
 
 """# Main window
 root = tk.Tk()
